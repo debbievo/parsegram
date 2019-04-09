@@ -48,7 +48,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeQ-0G-w8D">
                                 <rect key="frame" x="22" y="400" width="102" height="30"/>
@@ -145,6 +145,11 @@
                         <viewLayoutGuide key="safeArea" id="1s3-yP-8TV"/>
                     </view>
                     <navigationItem key="navigationItem" id="qeP-fP-Gor">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="fhN-G0-fUe">
+                            <connections>
+                                <action selector="onLogout:" destination="411-uV-eES" id="Cgn-UH-jUE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="Q7x-xL-Xyx">
                             <connections>
                                 <segue destination="Cp4-Gh-nYa" kind="presentation" id="y2Q-0h-CTb"/>

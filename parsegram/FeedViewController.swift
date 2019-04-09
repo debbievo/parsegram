@@ -12,6 +12,11 @@ import AlamofireImage
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBAction func onLogout(_ sender: Any) {
+        //self.navigationController?.popToRootViewController(animated: true)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var tableView: UITableView!
     
     var posts = [PFObject]()

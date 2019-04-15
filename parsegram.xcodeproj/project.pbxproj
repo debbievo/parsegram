@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CB8F888244D0FBB0D9D7875 /* Pods_parsegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF21B37FCA700FF42316D8C /* Pods_parsegram.framework */; };
 		A3E60B7A1C5067DED42775B2 /* Pods_parsegramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40BC0B5613FDEEF78F7F229 /* Pods_parsegramTests.framework */; };
+		BA4811B02264592600B83FB0 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4811AF2264592600B83FB0 /* CommentCell.swift */; };
 		BAACEF33225BE696005B81CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACEF32225BE696005B81CA /* LoginViewController.swift */; };
 		BAACEF35225BE6AA005B81CA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACEF34225BE6AA005B81CA /* FeedViewController.swift */; };
 		BAACEF37225C484A005B81CA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACEF36225C484A005B81CA /* CameraViewController.swift */; };
@@ -44,6 +45,7 @@
 		89002E3F3D638B3A0CEF1ABA /* Pods-parsegramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsegramTests.debug.xcconfig"; path = "Target Support Files/Pods-parsegramTests/Pods-parsegramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92C864A53D89CE5D65DCB9D7 /* Pods-parsegramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsegramTests.release.xcconfig"; path = "Target Support Files/Pods-parsegramTests/Pods-parsegramTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8390A8AD55AF1A022BCB9E5 /* Pods_parsegramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parsegramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4811AF2264592600B83FB0 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		BAACEF32225BE696005B81CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BAACEF34225BE6AA005B81CA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BAACEF36225C484A005B81CA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				BAACEF34225BE6AA005B81CA /* FeedViewController.swift */,
 				BAACEF36225C484A005B81CA /* CameraViewController.swift */,
 				BAACEF38225C52A8005B81CA /* PostCell.swift */,
+				BA4811AF2264592600B83FB0 /* CommentCell.swift */,
 			);
 			path = parsegram;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				BAACEF35225BE6AA005B81CA /* FeedViewController.swift in Sources */,
 				BAF2DF13225B0A5A006EF79C /* AppDelegate.swift in Sources */,
 				BAACEF39225C52A8005B81CA /* PostCell.swift in Sources */,
+				BA4811B02264592600B83FB0 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
